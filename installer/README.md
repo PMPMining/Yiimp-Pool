@@ -1,12 +1,8 @@
-# Yiimp_install_script cryptoverse.eu (update June, 2022)
+# Yiimp_install_script (update June, 2022)
 
-Site : https://www.xavatar.com
+TUTO Youtube (16.04 / 18.04 - Without SSL) : https://www.youtube.com/channel/UCXdH6xeRM1v4uebHFVJaKww
 
-Discord : https://discord.gg/zcCXjkQ
-
-TUTO Youtube (16.04 / 18.04 - Without SSL) : https://www.youtube.com/watch?v=qE0rhfJ1g2k
-
-Official Yiimp (used in this script for Yiimp Installation): https://github.com/tpruvot/yiimp
+Official Yiimp (used in this script for Yiimp Installation): https://github.com/MonkeyD-Core/yiimp-main
 
 Original Yiimp Installer : https://github.com/cryptopool-builders/multipool_original_yiimp_installer
 
@@ -27,8 +23,8 @@ Connect on your VPS =>
 - exit 
 - su - pool
 - sudo apt -y install git
-- git clone https://github.com/nitrocon/yiimp-cryptoverse.eu.git
-- cd yiimp_install_scrypt/
+- git clone https://github.com/MonkeyD-Core/yiimp-main
+- cd yiimp-main/installer/
 - bash install.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
 - At the end, you MUST REBOOT to finalize installation...
 
@@ -74,6 +70,10 @@ There will be several wallets already in yiimp. These have nothing to do with th
 If you need further assistance we have a small but growing discord channel at https://discord.gg/zcCXjkQ
 
 If this helped you or you feel giving please donate : 
-- BTC Donation : 1C1hnjk3WhuAvUN6Ny6LTxPD3rwSZwapW7
-- BCH Donation : 1PqjApUdjwU9k4v1RDWf6XveARyEXaiGUz
-- ETH Donation : 0xc23E6902fF8Cd8878EDADE18Dc49B3505395F0a1
+- BTC Donation : 1NQ46aP2wgotA9dJs4U8jBv4a1cR9qF8DA
+- ETH Donation : 0x0a61ec3546ff49bd3b9cb6a5d08397fb32ba1b91
+- LTC Donation : LWxo5EXMJnrYGokcjC4K3RJ3sEcwCTGrw8
+- DOGE Donation : DK8oQXVSsXCTu6vRhiAn8waF3v3hVsNg9G
+- TRX Donation : TMdaz1ZSRQACYaVZMAC4F6nsQsuYXz54Hc
+- TRC20 USDT Donation : TMdaz1ZSRQACYaVZMAC4F6nsQsuYXz54Hc
+- ERC20/BEP20 USDT  : 0x0a61ec3546ff49bd3b9cb6a5d08397fb32ba1b91
